@@ -1,36 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>*</members>
+        <members>DMLUtils</members>
+        <members>DMLUtilsTest</members>
+        <members>ErrorLog</members>
         <name>ApexClass</name>
     </types>
     <types>
-        <members>*</members>
-        <name>ApexComponent</name>
+        <members>Error_Log_Event__e.Bulk_Errors_JSON__c</members>
+        <members>Error_Log__c.Class__c</members>
+        <members>Error_Log__c.Error_Message__c</members>
+        <members>Error_Log__c.Field_Values__c</members>
+        <members>Error_Log__c.Line_Number__c</members>
+        <members>Error_Log__c.Method__c</members>
+        <members>Error_Log__c.Related_ID__c</members>
+        <members>Error_Log__c.Stack_Trace__c</members>
+        <members>Error_Log__c.System__c</members>
+        <name>CustomField</name>
     </types>
     <types>
-        <members>*</members>
-        <name>ApexPage</name>
+        <members>Error_Log_Event__e</members>
+        <members>Error_Log__c</members>
+        <name>CustomObject</name>
     </types>
-    <types>
-        <members>*</members>
-        <name>ApexTestSuite</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>ApexTrigger</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>AuraDefinitionBundle</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>LightningComponentBundle</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>StaticResource</name>
-    </types>
-    <version>58.0</version>
+    
+    <version>59.0</version>
 </Package>
